@@ -44,6 +44,8 @@ var client = echonester({
 
 Find the single best match for a search:
 
+`client.findBestMatch(artist, title, callback)`
+
 ```javascript
 var client = (require('echonester')());
 
@@ -68,6 +70,8 @@ Which returns the following response:
 ### Search
 
 Find all matches for a search:
+
+`client.search(options, artist, title, callback)`
 
 _Please note, the `options` parameter is optional and can be omitted_
 
