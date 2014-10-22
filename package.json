@@ -1,9 +1,13 @@
 {
-  "name": "spotifier",
+  "name": "echonester",
   "version": "0.1.0",
-  "description": "a client library for searching songs within Spotify and retrieving the nearest match",
+  "description": "a client library for searching songs within EchoNest and retrieving the nearest match",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/PlayNetwork/echonester.git"
+  },
   "keywords": [
-    "spotify",
+    "echonest",
     "song",
     "track",
     "search"
@@ -15,9 +19,9 @@
   "author": "PlayNetwork",
   "license": "MIT",
   "dependencies": {
-    "levenshtein": "~1.0.4",
-    "request": "~2.34.0",
-    "unidecode": "~0.1.3"
+    "levenshtein": "^1.0.5",
+    "request": "^2.34.0",
+    "unidecode": "^0.1.3"
   },
   "devDependencies": {
     "gulp": "^3.6.2",

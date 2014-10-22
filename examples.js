@@ -1,23 +1,30 @@
 var
-	spotifier = require('./lib'),
+	echonester = require('./lib'),
 
-	client = spotifier();
+	client = echonester({
+		apikey : 'FILDTEOIK2HBORODV' // example key used on Echonest site
+	});
 
-
-client.findBestMatch('beck loser', function (err, result) {
+client.findBestMatch('beck', 'loser', function (err, result) {
 	if (err) {
 		console.error(err);
 	}
 
-	console.log('best match:');
-	console.log(result);
+	if (result) {
+		console.log('best match:');
+		console.log(result);
+	}
 });
 
-client.search('beck loser', function (err, result) {
+/*
+client.search('beck', 'loser', function (err, result) {
 	if (err) {
 		console.error(err);
 	}
 
-	console.log('search:');
-	console.log(result);
+	if (result) {
+		console.log('search:');
+		console.log(result);
+	}
 });
+//*/
