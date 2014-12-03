@@ -1,6 +1,6 @@
 {
   "name": "echonester",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a client library for searching songs within EchoNest and retrieving the nearest match",
   "repository": {
     "type": "git",
