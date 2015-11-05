@@ -25,6 +25,7 @@ client.search('foo fighters', 'breakout', function (err, result) {
 ### Options:
 
 * apikey - Your Echonest API key
+* bucket - An array of [bucket values](http://developer.echonest.com/docs/v4/song.html#search)
 * searchResultLimit - Max number of results to return from search (defaults to 10)
 * searchUrl - URL of API endpoint (defaults to `https://developer.echonest.com/api/v4/song/search`)
 * timeout - Timeout for request in milliseconds (defaults to `10000`)
