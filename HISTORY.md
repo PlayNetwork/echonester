@@ -1,3 +1,8 @@
+# v0.1.5 - 2015.11.11
+
+* Added `+` to allowable chars in sanitization routine
+* URI encoded title and artist when calling Echonest API
+
 # v0.1.4 - 2015.11.05
 
 * Updated server response error handling
