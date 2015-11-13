@@ -2,7 +2,7 @@ var
 	echonester = require('./lib'),
 
 	client = echonester({
-		apikey : process.env.ECHONEST_APIKEY || 'FILcoDTEOIK2HBORODV' // example key used on Echonest site
+		apikey : process.env.ECHONEST_APIKEY || 'FILDTEOIK2HBORODV' // example key used on Echonest site
 	});
 
 /*
