@@ -18,7 +18,7 @@ client.findBestMatch('beck', 'loser', function (err, result) {
 });
 //*/
 
-client.findBestMatch('Martin Solveig Feat. Sam White', '+1', function (err, result) {
+client.findBestMatch('Roots', '@15', function (err, result) {
 	if (err) {
 		console.error(err);
 	}
