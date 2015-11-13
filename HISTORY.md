@@ -1,3 +1,8 @@
+# v0.1.6 - 2015.11.13
+
+* Added `#` and `*` to allowable chars in santization routine
+* Trimming whitespace from search terms
+
 # v0.1.5 - 2015.11.11
 
 * Added `+` to allowable chars in sanitization routine

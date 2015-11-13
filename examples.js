@@ -2,7 +2,7 @@ var
 	echonester = require('./lib'),
 
 	client = echonester({
-		apikey : process.env.ECHONEST_APIKEY || 'FILDTEOIK2HBORODV' // example key used on Echonest site
+		apikey : process.env.ECHONEST_APIKEY || 'FILcoDTEOIK2HBORODV' // example key used on Echonest site
 	});
 
 /*
@@ -18,7 +18,7 @@ client.findBestMatch('beck', 'loser', function (err, result) {
 });
 //*/
 
-client.findBestMatch('Martin Solveig Feat. Sam White', '+1', function (err, result) {
+client.findBestMatch('Roots', '@15', function (err, result) {
 	if (err) {
 		console.error(err);
 	}
